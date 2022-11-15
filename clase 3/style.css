@@ -1,51 +1,73 @@
-/* comentarios en css */
-/* selectores */
-
+/* comentarios en css*/
+/* selectores*/
+body {
+     background-color: brown;
+}
 
 h1 {
-    color: green;
-    background-color: yellow;
+     background-color: yellowgreen;
+     width: 400px;
+     height: 50%;
 
 
+}
+
+p {
+
+     color: green;
+     background-color: yellow;
 }
 
 button {
-    background-color: pink;
-
+     background-color: pink;
 }
 
-h1 {
-    background-color: _rgb(rgba(255, 132, 0, 0.921), rgba(0, 128, 0, 0.651), rgba(0, 0, 255, 0.804));
-
+a {
+     background-color: tomato;
 }
 
-/* selectores de clase */
-/* .nombreDeLaClase */
+/* selectores de clases*/
+/* .nombre Delaclase*/
 
 
-.textorojo {
-    color: red;
+.textoRojo {
+     color: red;
+
 }
 
 .letras {
-    color: blue;
+     /*propiedades*/
+     color: blue;
 }
 
-/* selectores por id */
+/*SELECTORES x id*/
 
-#untexto {
-    background-color: orange;
-
-
+#unTexto {
+     background-color: powderblue;
 }
-
-/* le va a 
-/* definir colores:
-ROJO - VERDE -AZUL
-hexadecimal # A-F 0-9
-rgb(red green blue) 0 al 255 _rgba(red green blue transparencia) : O al 1
-colores predefinidos por css */
 
 img {
-    width: ;
+     width: 50%;
+     /* ancho de un elemento*/
+
 }
+
+ul {
+     width: 800 px;
+     height: 50vh;
+     background-color: red;
+}
+
+li {
+     width: 50%;
+}
+
+/* le vaa colocar a todos los elementos todas la propiedas
+/* mas general estiqueta, id es principal */
+
+/* definir colores
+ 
+hexadecimal # A-F 0-9
+
+rgb (RED GREEN BLUE)-rgba transparencia 0 al 1 */
+/* UNidades porcentage tpma el valor del padre
