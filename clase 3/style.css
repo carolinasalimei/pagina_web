@@ -1,0 +1,51 @@
+/* comentarios en css */
+/* selectores */
+
+
+h1 {
+    color: green;
+    background-color: yellow;
+
+
+}
+
+button {
+    background-color: pink;
+
+}
+
+h1 {
+    background-color: _rgb(rgba(255, 132, 0, 0.921), rgba(0, 128, 0, 0.651), rgba(0, 0, 255, 0.804));
+
+}
+
+/* selectores de clase */
+/* .nombreDeLaClase */
+
+
+.textorojo {
+    color: red;
+}
+
+.letras {
+    color: blue;
+}
+
+/* selectores por id */
+
+#untexto {
+    background-color: orange;
+
+
+}
+
+/* le va a 
+/* definir colores:
+ROJO - VERDE -AZUL
+hexadecimal # A-F 0-9
+rgb(red green blue) 0 al 255 _rgba(red green blue transparencia) : O al 1
+colores predefinidos por css */
+
+img {
+    width: ;
+}
