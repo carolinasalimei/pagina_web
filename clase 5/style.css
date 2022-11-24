@@ -1,0 +1,45 @@
+.container {
+     width: 50px;
+     height: 60px;
+
+}
+
+.body {
+     width: 100px;
+     height: 100px;
+     background-color: brown;
+
+}
+
+.uno {
+     width: 100px;
+     height: 100px;
+     background-color: aquamarine;
+
+}
+
+.dos {
+     width: 100px;
+     height: 150px;
+     background-color: blue;
+
+}
+
+.tres {
+     width: 150px;
+     position: fixed;
+     height: 150px;
+     background-color: chartreuse;
+     bottom: 10px;
+     left: 10px;
+     z-index: 1;
+
+}
+
+.cuatro {
+     width: 200px;
+     height: 200px;
+     background-color: brown;
+     position: sticky;
+     top: 0px;
+}
