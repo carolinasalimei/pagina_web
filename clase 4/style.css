@@ -37,14 +37,17 @@ button {
 
 }
 
+
 .subtitulo {
      font-size: 1em;
-     font-size: 900;
+     font-size: 600;
      text-transform: capitalize;
+     /* lowercase - capitalize */
      text-align: center;
      width: 50%;
-     background-color: aquamarine;
+     background-color: green;
 }
+
 
 p {
      text-align: justify;
