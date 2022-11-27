@@ -1,45 +1,64 @@
 .container {
-     width: 50px;
-     height: 60px;
+     background-color: aqua;
+     height: 300px;
 
 }
 
-.body {
-     width: 100px;
-     height: 100px;
-     background-color: brown;
+img {
+     z-index: 0;
+     width: 290px;
+}
 
+.cubo {
+     width: 150px;
+     height: 150px;
+     background-color: brown;
+     border: 2px solid black;
+     margin: 10px;
+     font-size: larger;
+     font-weight: bolder;
 }
 
 .uno {
-     width: 100px;
-     height: 100px;
-     background-color: aquamarine;
-
+     background-color: orange;
+     position: relative;
+     top: 100px;
+     left: 190px;
 }
 
 .dos {
-     width: 100px;
-     height: 150px;
-     background-color: blue;
+     background-color: violet;
+     position: absolute;
+     bottom: 1px;
+     right: 10px;
+}
+
+.fondo {
+     width: 300px;
+     height: 300px;
+     position: relative;
+
 
 }
 
+
+
+.textoInterno {
+     position: absolute;
+     top: 50px;
+     left: 45px;
+}
+
 .tres {
-     width: 150px;
+     background-color: yellow;
      position: fixed;
-     height: 150px;
-     background-color: chartreuse;
      bottom: 10px;
-     left: 10px;
+     right: 10px;
      z-index: 1;
 
 }
 
 .cuatro {
-     width: 200px;
-     height: 200px;
-     background-color: brown;
      position: sticky;
      top: 0px;
 }
