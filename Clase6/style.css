@@ -9,7 +9,6 @@ body {
     background-color: lightyellow;
     margin: 0px;
 
-
 }
 
 /*--------HOJA--------*/
@@ -26,6 +25,9 @@ body {
 .menu {
     list-style-type: none;
     margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
 }
 
 .boton {
@@ -35,24 +37,34 @@ body {
     border-radius: 8px;
     color: whitesmoke;
 
+}
 
+.link-boton {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 h1 {
     text-align: center;
 }
 
-.contenedor-tarjetas-recientes {
-
+.contenedor-tarjetas-recientes,
+.contenedor-tarjetas-mas-vendidos {
 
     display: flex;
     flex-direction: row;
+    /* si se comporta en forma de fila o columna*/
+
     justify-content: space-between;
+    /* si es row: le puedo indicar como ubicarse de manera horizontal ; si es column: de manera vertical */
     align-items: center;
+    /* si es row: alinea a los hijos en sentido vertical si es column : de manera horizontal*/
+
     flex-wrap: wrap;
-    gap: 10px;
-
-
+    /* les defino para indicarle que respete (wrap) o no (nowrap) el ancho definido de los elementos hijos*/
+    gap: 20px;
+    /* distancia entre los elementos hijos */
+    margin: 10px 40px;
 }
 
 
@@ -65,8 +77,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
+}
 
 .tarjeta>img {
     width: 100%;
@@ -74,7 +86,7 @@ h1 {
     height: fit-content;
 }
 
-.tarjeta>p,
+.texto-tarjeta,
 .boton {
     text-align: center;
 }

@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Repaso-Ejercitacion</title>
-</head>
-<body>
-    <h1>Contacto</h1>
-    <div class="formulario">
+<html lang="es">
 
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Repaso-Ejercitacion</title>
+    </head>
+
+    <body>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li class="boton">Productos</li>
+                <li class="botom">
+                    <a class=" link-boton" href=",/formulario.html">contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Contacto</h1>
+
+        <section class="seccion-formulario">
+
+            <form action="https://formspree.io/f/meqdbpyp" method="POST">
+                <div>
+
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" name="nombreUsuario" />
+
+                </div>
+
+
+
+
+                <label for=" Apellido">Apellido</label>
+                <input type="text" id="Apellido" name="" />
+
+
+                <label for="email">Correo electronico</label>
+                <input type="email" id="Email" name="" />
+
+
+                <label for="pass">Contraseña</label>
+                <input type="password" id="pass" name="Contraseña" />
+
+
+                <label for="">Ingrese en que franja horia</label>
+
+                <div>
+
+                    <label for="tm">De 9hs a 12.01hs</label>
+                    <input type="radio" id="tm" name="horarioDeContacto" value="9hs a 12hs">
+
+
+                    <label for="tt">De 12hs a 17hs</label>
+                    <input type="radio" id="tt" name="horarioDeContacto" value="12hs a 17hs">
+                </div>
+
+                <label for="notificaciones">Indique que tipo dde notificacione</label>
+
+                <label for="notificaciones">Productos Nuevos</label>
+                <input type="checkbox" id="notificaciones" name="notificaciones" value="nuevos 
+                 productos">
+
+                <label for="Promo">Promociones</label>
+                <input type="checkbox" id="Promo" name="notificaciones" value="promociones">
+
+                <label for="paisOrigen">Nacionalidad</label>
+                <select name="" id="paisOrigen">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguaya">Uruguaya</option>
+                    <option value="Chilena">Chilena</option>
+                </select>
+                <label for="mensaje">Escriba sus comentarios</label>
+                <textarea name="" id="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+
+
+
+
+
+
+
+
+            </form>
+        </section>
+    </body>
+
 </html>
